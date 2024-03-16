@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Triqui</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="contenedor">
+    <h1>Triqui</h1>
+    <div id="tablero" class="tablero">
+      <div class="celda" onclick="colocarMarca(0)"></div>
+      <div class="celda" onclick="colocarMarca(1)"></div>
+      <div class="celda" onclick="colocarMarca(2)"></div>
+      <div class="celda" onclick="colocarMarca(3)"></div>
+      <div class="celda" onclick="colocarMarca(4)"></div>
+      <div class="celda" onclick="colocarMarca(5)"></div>
+      <div class="celda" onclick="colocarMarca(6)"></div>
+      <div class="celda" onclick="colocarMarca(7)"></div>
+      <div class="celda" onclick="colocarMarca(8)"></div>
+    </div>
+    <p id="turno">Turno de: X</p>
+    <button onclick="reiniciarJuego()">Reiniciar Juego</button>
+  </div>
+  <script src="index.js"></script>
+</body>
+</html>
